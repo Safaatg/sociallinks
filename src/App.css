@@ -1,0 +1,13 @@
+#hero {
+    width: 30%;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+}
+@media (max-width: 425px) {
+    /* Styles for smaller screens */
+    #hero {
+        width: 80%;
+        background-color: #1F1F1F;
+        border-radius: 12px;
+    }
+  }

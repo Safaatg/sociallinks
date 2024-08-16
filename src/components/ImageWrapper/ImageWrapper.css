@@ -1,0 +1,47 @@
+
+
+#profilImg {
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+}
+#profilImg img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+#profilImg #txt {
+    margin-bottom: 24px;
+}
+#profilImg #txt h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+#profilImg #txt span {
+    color: #C4F828;
+    font-size: 20px;
+}
+#Links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    margin-top: 20px;
+}
+#Links > button {
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+#Links > button:hover {
+    background-color: #C4F828;
+    color: #333333;
+}
+
+/* Layout */

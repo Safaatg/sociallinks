@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: #141414;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1 {
+  margin: 0;
+}
